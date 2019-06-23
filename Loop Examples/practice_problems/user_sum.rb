@@ -1,7 +1,7 @@
 
 def summed()
 #Totals 10 integers provided by the user
-  puts "Please enter 10 numbers: "
+  puts "Please enter 10 numbers:  "
   num_array = Array.new
   counter = 0
   while counter < 10
@@ -11,5 +11,6 @@ def summed()
   end
   puts "Your total is:#{num_array.sum}"
 end
+
 
 puts summed
