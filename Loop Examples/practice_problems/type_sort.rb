@@ -1,4 +1,4 @@
-#array with various types
+#array with various types 
 types = [2, "two", 2.0]
 
 def sort(an_array)
