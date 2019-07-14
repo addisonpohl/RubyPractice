@@ -8,9 +8,7 @@ def find_duplicates(list)
     if list.count(number) > 1 && duplicates.count(number) < 1
       duplicates.push(number)
     end
-
-    end
-
+  end
   return duplicates
 end
 
