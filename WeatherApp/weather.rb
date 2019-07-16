@@ -12,7 +12,7 @@ def get_weather(city)
 end
 
 
-#collect user's cityG
+#collect user's city
 puts "What city are you in?"
 city = gets.chomp
 
