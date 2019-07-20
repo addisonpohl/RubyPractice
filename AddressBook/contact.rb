@@ -46,20 +46,20 @@ class Contact
 
   def full_name
     full_name = first_name
-      if !@middle_name.nil?
+    if !@middle_name.nil?
       full_name += " #{middle_name}"
 
-      end
+    end
     full_name += " #{last_name}"
     full_name
-    end
+  end
   def last_first
     last_first = last_name
     last_first += ", #{first_name}"
     if !@middle_name.nil?
       last_first += " #{middle_name.slice(0,1)}."
-     end
-   last_first
+    end
+    last_first
   end
 
   def to_s(format = "full_name")
@@ -87,4 +87,4 @@ class Contact
     puts "Address"
     addresses.each { |address| puts address.to_s('short')}
   end
- end
+end

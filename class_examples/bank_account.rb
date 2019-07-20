@@ -9,7 +9,7 @@ class BankAccount
   end
 
   def credit(description, amount)
-     add_transaction(description, amount)
+    add_transaction(description, amount)
   end
 
   def debit(description, amount)
@@ -41,9 +41,9 @@ class BankAccount
     @transactions.each do |transaction|
       puts transaction[:description].ljust(30) + "\t" + sprintf("%0.2f", transaction[:amount]).rjust(10)
     end
-      puts "-" * 45
-      puts "Balance:".ljust(30) + "#{sprintf("%0.2f", balance)}".rjust(12)
-      puts "-" * 45
+    puts "-" * 45
+    puts "Balance:".ljust(30) + "#{sprintf("%0.2f", balance)}".rjust(12)
+    puts "-" * 45
   end
 
 end

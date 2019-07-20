@@ -10,8 +10,8 @@ def digital_root(n)
     number = number.to_s
   #itterates over each digit, coverts back to ineger, and push into a global array.
     number.each_char do |num|
-    num = num.to_i
-    $num_array.push(num)
+      num = num.to_i
+      $num_array.push(num)
     end
   end
 
