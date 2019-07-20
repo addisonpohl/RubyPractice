@@ -28,6 +28,6 @@ def digital_root(n)
   return $n
 end
 
-random = rand(1...1000)
+random = rand(1...10000)
 puts "Starting Number: #{random}"
 digital_root(random)
