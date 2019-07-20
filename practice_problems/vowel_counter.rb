@@ -9,7 +9,7 @@ def vowel_count(word)
       counter += 1
     end
   end
- return "Your word has #{counter} vowels"
+  return "Your word has #{counter} vowels"
 end
 
 print "Please enter a word: "

@@ -10,18 +10,18 @@ class Contact
     @addresses = []
   end
 
-  def add_phone_number (kind, number)
+  def add_phone_number(kind, number)
     phone_number = PhoneNumber.new
     phone_number.kind = kind
     phone_number.number = number
     phone_numbers.push(phone_number)
   end
 
-  def add_address(kind, street_1, street_2, city, state, postal_code)
+  def add_address(kind, street1, street2, city, state, postal_code)
     address = Address.new
     address.kind = kind
-    address.street_1 = street_1
-    address.street_2 = street_2
+    address.street1 = street_1
+    address.street2 = street_2
     address.city = city
     address.state = state
     address.postal_code = postal_code

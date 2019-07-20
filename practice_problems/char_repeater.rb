@@ -1,6 +1,6 @@
 #repeat each character of word with speceified amount of times
 
-def word_repeat (number, word)
+def word_repeat(number, word)
   number = number.to_i
   a_word = word.chars
   r_word = Array.new
