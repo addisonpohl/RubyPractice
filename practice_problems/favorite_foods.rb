@@ -13,8 +13,8 @@ def food()
 
   count = 0
   user_foods.each do |food|
-  count += 1
-  puts count.to_s + ". " + food
+    count += 1
+    puts count.to_s + ". " + food
   end
 end
 
