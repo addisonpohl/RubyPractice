@@ -12,5 +12,4 @@ def maskify(cc)
 end
 
 
-puts maskify("4556364607935616")
-puts maskify("1")
+puts maskify("455636460793561")
